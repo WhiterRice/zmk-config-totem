@@ -50,11 +50,6 @@
             key-positions = <10 11>;
         };
 
-        shift+return {
-            bindings = <&kp LS(RET)>;
-            key-positions = <34 33>;
-        };
-
         caps {
             bindings = <&caps_word>;
             key-positions = <34 35>;
