@@ -99,10 +99,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E     &kp R       &kp T            &kp Y            &kp U        &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D     &kp F       &kp G            &kp H            &kp J        &kp K      &kp L    &kp SEMI
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V       &kp B            &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                         &kp LALT  &lt 1 BSPC  &mt LSHFT RET    &mt RSHFT SPACE  &lt SYM DEL  &kp RGUI
+       &kp Q  &kp W  &kp E     &kp R           &kp T            &kp Y            &kp U        &kp I      &kp O    &kp P
+       &kp A  &kp S  &kp D     &kp F           &kp G            &kp H            &kp J        &kp K      &kp L    &kp SEMI
+&mo 1  &kp Z  &kp X  &kp C     &kp V           &kp B            &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                     &kp LALT  &mt LCTRL BSPC  &mt LSHFT RET    &mt RSHFT SPACE  &lt SYM DEL  &kp RGUI
             >;
         };
 
@@ -125,10 +125,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp F11   &kp F12   &kp UP    &kp PSCRN  &kp SLCK           &kp GRAVE   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-            &kp LGUI  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAUSE_BREAK    &kp HOME    &kp PG_DN  &kp PG_UP  &kp END   &kp INS
-&alts_word  &kp F1    &kp F2    &kp F3    &kp F4     &kp F5             &kp F6      &kp F7     &kp F8     &kp F9    &kp F10   &kp BSLH
-                                &trans    &trans     &kp LS(RET)        &caps_word  &trans     &trans
+        &kp F11   &kp F12   &kp UP      &kp PSCRN     &kp SLCK           &kp GRAVE   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+        &kp LGUI  &kp LEFT  &kp DOWN    &kp RIGHT     &kp PAUSE_BREAK    &kp HOME    &kp PG_DN  &kp PG_UP  &kp END   &kp INS
+&trans  &kp F1    &kp F2    &kp F3      &kp F4        &kp F5             &kp F6      &kp F7     &kp F8     &kp F9    &kp F10   &kp BSLH
+                            &alts_word  &kp LC(BSPC)  &kp LS(RET)        &caps_word  &trans     &trans
             >;
         };
 
