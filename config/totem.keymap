@@ -53,6 +53,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <10 11>;
         };
+
+        quit {
+            bindings = <&kp LC(Q)>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
