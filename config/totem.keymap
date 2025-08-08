@@ -160,7 +160,7 @@
             &kp F11   &kp F12   &kp UP    &kp PSCRN  &kp SLCK           &kp GRAVE   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
             &kp LGUI  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAUSE_BREAK    &kp HOME    &kp PG_DN  &kp PG_UP  &kp END   &kp INS
 &caps_word  &kp F1    &kp F2    &kp F3    &kp F4     &kp F5             &kp F6      &kp F7     &kp F8     &kp F9    &kp F10   &kp BSLH
-                                &trans    &trans     &trans             &alts_word  &trans     &trans
+                                &trans    &trans     &kp LC(RET)        &alts_word  &trans     &trans
             >;
         };
 
