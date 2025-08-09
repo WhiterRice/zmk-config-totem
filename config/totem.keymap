@@ -112,10 +112,10 @@
 
         mm_bs: mod_morph_bspc {
             compatible = "zmk,behavior-mod-morph";
-            bindings = <&lt 1 BSPC>, <&kp LC(BSPC)>;
+            bindings = <&lt 1 LC(BSPC)>, <&kp BSPC>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LCTL)>;
         };
 
         hml: home_row_mod_left {
@@ -167,10 +167,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q          &kp W  &kp E     &kp R       &kp T            &kp Y           &kp U        &kp I      &kp O    &kp P
-          &hml LSHIFT A  &kp S  &kp D     &kp F       &kp G            &kp H           &kp J        &kp K      &kp L    &hmr RSHIFT SEMI
-&kp LALT  &kp Z          &kp X  &kp C     &kp V       &kp B            &kp N           &kp M        &kp COMMA  &kp DOT  &kp FSLH          &kp SQT
-                                &kp LGUI  &lt 1 BSPC  &mt LCTRL RET    &mt RALT SPACE  &lt SYM DEL  &kp RGUI
+          &kp Q          &kp W  &kp E     &kp R   &kp T            &kp Y           &kp U        &kp I      &kp O    &kp P
+          &hml LSHIFT A  &kp S  &kp D     &kp F   &kp G            &kp H           &kp J        &kp K      &kp L    &hmr RSHIFT SEMI
+&kp LALT  &kp Z          &kp X  &kp C     &kp V   &kp B            &kp N           &kp M        &kp COMMA  &kp DOT  &kp FSLH          &kp SQT
+                                &kp LGUI  &mm_bs  &mt LCTRL RET    &mt RALT SPACE  &lt SYM DEL  &kp RGUI
             >;
         };
 
