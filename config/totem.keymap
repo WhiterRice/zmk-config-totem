@@ -78,11 +78,6 @@
             bindings = <&kp ESC>;
             key-positions = <11 10>;
         };
-
-        ctrl+bspc {
-            bindings = <&kp LC(BSPC)>;
-            key-positions = <33 34>;
-        };
     };
 
     macros {
