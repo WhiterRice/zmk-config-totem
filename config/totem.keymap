@@ -90,14 +90,6 @@
             mods = <(MOD_LALT)>;
         };
 
-        mm_bs: mod_morph_bspc {
-            compatible = "zmk,behavior-mod-morph";
-            bindings = <&lt 1 LC(BSPC)>, <&kp BSPC>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LCTL)>;
-        };
-
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&kp>, <&kp>;
