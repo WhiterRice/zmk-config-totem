@@ -48,6 +48,21 @@
             bindings = <&kp ESC>;
             key-positions = <11 10>;
         };
+
+        quit {
+            bindings = <&kp LC(Q)>;
+            key-positions = <0 10>;
+        };
+
+        select_all {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 21>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <21 22>;
+        };
     };
 
     macros {
