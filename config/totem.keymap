@@ -35,12 +35,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <10 11>;
+            key-positions = <>;
         };
     };
 
@@ -153,10 +153,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q         &kp W  &kp E     &kp R     &kp T        &kp Y        &kp U    &kp I      &kp O    &kp P
-           &hml LSHFT A  &kp S  &kp D     &kp F     &kp G        &kp H        &kp J    &kp K      &kp L    &hmr RSHFT SEMI
-&kp LCTRL  &kp Z         &kp X  &kp C     &kp V     &kp B        &kp N        &kp M    &kp COMMA  &kp DOT  &kp FSLH         &kp SQT
-                                &kp LALT  &kp BSPC  &lt 1 RET    &lt 2 SPACE  &kp DEL  &kp RGUI
+           &kp Q  &kp W  &kp E         &kp R           &kp T            &kp Y        &kp U    &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D         &kp F           &kp G            &kp H        &kp J    &kp K      &kp L    &hmr RSHFT SEMI
+&lt 1 TAB  &kp Z  &kp X  &kp C         &kp V           &kp B            &kp N        &kp M    &kp COMMA  &kp DOT  &kp FSLH         &kp SQT
+                         &mt LALT ESC  &mt LCTRL BSPC  &mt LSHFT RET    &lt 2 SPACE  &kp DEL  &kp RGUI
             >;
         };
 
@@ -179,10 +179,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp F11   &kp F12   &kp UP      &kp PSCRN  &kp SLCK           &kp GRAVE  &kp MINUS   &kp EQUAL  &kp LBKT  &kp RBKT
-        &sk LGUI  &kp LEFT  &kp DOWN    &kp RIGHT  &kp PAUSE_BREAK    &kp HOME   &kp PG_DN   &kp PG_UP  &kp END   &kp INS
-&trans  &kp F1    &kp F2    &kp F3      &kp F4     &kp F5             &kp F6     &kp F7      &kp F8     &kp F9    &kp F10   &kp BSLH
-                            &alts_word  &trans     &trans             &trans     &caps_word  &trans
+        &kp F11  &kp F12   &kp UP      &kp PSCRN           &kp SLCK             &kp GRAVE   &kp MINUS      &kp EQUAL    &kp LBKT  &kp RBKT
+        &kp F1   &kp LEFT  &kp DOWN    &kp RIGHT           &kp PAUSE_BREAK      &kp HOME    &kp PG_DN      &kp PG_UP    &kp END   &kp INS
+&trans  &trans   &kp F2    &kp F3      &kp F4              &kp F5               &kp F6      &kp F7         &kp F8       &kp F9    &kp F10   &kp BSLH
+                           &alts_word  &mt LCTRL LC(BSPC)  &mt LSHFT LS(RET)    &caps_word  &kp LC(PG_UP)  &kp LA(INS)
             >;
         };
 
