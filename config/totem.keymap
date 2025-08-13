@@ -33,12 +33,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <>;
-            bindings = <&tog 3>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
@@ -46,7 +40,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <11 10>;
+            key-positions = <>;
         };
     };
 
@@ -127,6 +121,14 @@
             require-prior-idle-ms = <125>;
             flavor = "balanced";
         };
+
+        mm_bs: mod_morph_bspc {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&hml LCTRL BSPC>, <&kp LC(BSPC)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -151,10 +153,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q         &kp W  &kp E     &kp R     &kp T        &kp Y        &kp U    &kp I      &kp O    &kp P
-           &hml LSHFT A  &kp S  &kp D     &kp F     &kp G        &kp H        &kp J    &kp K      &kp L    &hmr RSHFT SEMI
-&sk LCTRL  &kp Z         &kp X  &kp C     &kp V     &kp B        &kp N        &kp M    &kp COMMA  &kp DOT  &kp FSLH         &kp SQT
-                                &kp LALT  &kp BSPC  &lt 1 RET    &lt 2 SPACE  &kp DEL  &kp RGUI
+         &kp Q         &kp W  &kp E     &kp R   &kp T        &kp Y        &kp U    &kp I      &kp O    &kp P
+         &hml LSHFT A  &kp S  &kp D     &kp F   &kp G        &kp H        &kp J    &kp K      &kp L    &hmr RSHFT SEMI
+&kp ESC  &kp Z         &kp X  &kp C     &kp V   &kp B        &kp N        &kp M    &kp COMMA  &kp DOT  &kp FSLH         &kp SQT
+                              &kp LALT  &mm_bs  &lt 1 RET    &lt 2 SPACE  &kp DEL  &kp RGUI
             >;
         };
 
