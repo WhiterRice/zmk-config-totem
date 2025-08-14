@@ -179,19 +179,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp F11  &kp F12   &trans      &kp PSCRN           &kp SLCK             &kp GRAVE   &kp MINUS      &kp EQUAL    &kp LBKT  &kp RBKT
-        &kp F1   &kp LEFT  &kp UP      &kp RIGHT           &kp PAUSE_BREAK      &kp HOME    &kp PG_DN      &kp PG_UP    &kp END   &kp INS
-&trans  &kp F2   &kp F3    &kp DOWN    &kp F4              &kp F5               &kp F6      &kp F7         &kp F8       &kp F9    &kp F10   &kp BSLH
-                           &alts_word  &mt LCTRL LC(BSPC)  &mt LSHFT LS(RET)    &caps_word  &kp LC(PG_UP)  &kp LA(INS)
+        &kp F11  &kp F12   &kp PRINTSCREEN  &kp SLCK            &kp PAUSE_BREAK      &kp GRAVE   &kp MINUS      &kp EQUAL    &kp LBKT  &kp RBKT
+        &kp F1   &kp LEFT  &kp UP           &kp RIGHT           &mo 3                &kp HOME    &kp PG_DN      &kp PG_UP    &kp END   &kp INS
+&trans  &kp F2   &kp F3    &kp DOWN         &kp F4              &kp F5               &kp F6      &kp F7         &kp F8       &kp F9    &kp F10   &kp BSLH
+                           &alts_word       &mt LCTRL LC(BSPC)  &mt LSHFT LS(RET)    &caps_word  &kp LC(PG_UP)  &kp LA(INS)
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sim_layer {
+        num_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "SYM";
+            label = "NUM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
