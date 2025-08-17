@@ -179,10 +179,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &kp F12   &kp UP        &kp PSCRN  &kp SLCK           &kp GRAVE  &kp MINUS      &kp EQUAL    &kp LBKT  &kp RBKT
-        &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAUSE_BREAK    &kp HOME   &kp PG_DN      &kp PG_UP    &kp END   &kp INS
-&trans  &trans  &trans    &trans        &trans     &trans             &trans     &trans         &trans       &trans    &trans    &kp BSLH
-                          &sk LEFT_ALT  &sk LCTRL  &sk RET            &sl 2      &kp LC(PG_UP)  &kp LA(INS)
+        &trans  &kp PSCRN  &kp UP        &trans     &kp SLCK           &kp GRAVE  &kp MINUS      &kp EQUAL    &kp LBKT        &kp RBKT
+        &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &kp PAUSE_BREAK    &kp HOME   &kp PG_DN      &kp PG_UP    &kp END         &kp INS
+&trans  &trans  &trans     &trans        &trans     &trans             &kp TILDE  &kp UNDER      &kp PLUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSLH
+                           &sk LEFT_ALT  &sk LCTRL  &sk RET            &sl 2      &kp LC(PG_UP)  &kp LA(INS)
             >;
         };
 
