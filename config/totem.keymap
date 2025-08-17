@@ -180,7 +180,7 @@
 
             bindings = <
         &kp F11  &kp PSCRN  &kp UP        &kp SLCK   &kp PAUSE_BREAK    &kp GRAVE  &kp MINUS      &kp EQUAL    &kp LBKT  &kp RBKT
-        &kp F12  &kp LEFT   &kp DOWN      &kp RIGHT  &kp PAUSE_BREAK    &kp HOME   &kp PG_DN      &kp PG_UP    &kp END   &kp INS
+        &kp F12  &kp LEFT   &kp DOWN      &kp RIGHT  &trans             &kp HOME   &kp PG_DN      &kp PG_UP    &kp END   &kp INS
 &trans  &kp F1   &kp F2     &kp F3        &kp F4     &kp F5             &kp F6     &kp F7         &kp F8       &kp F9    &kp F10   &kp BSLH
                             &sk LEFT_ALT  &kp BSPC   &sk RET            &sl 2      &kp LC(PG_UP)  &kp LA(INS)
             >;
