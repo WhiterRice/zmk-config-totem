@@ -139,7 +139,7 @@
 
         skl: sticky_key_lazy {
             compatible = "zmk,behavior-sticky-key";
-            bindings = <&sk>;
+            bindings = <&kp>;
             #binding-cells = <1>;
             lazy;
             release-after-ms = <1000>;
@@ -172,12 +172,12 @@
             tapping-term-ms = <150>;
         };
 
-        skq: sticky_key_quick_release {
+        skq: sticky_key_qr {
             compatible = "zmk,behavior-sticky-key";
-            bindings = <&sk>;
+            bindings = <&kp>;
             #binding-cells = <1>;
             release-after-ms = <1000>;
-            label = "NEW_BEHAVIOR";
+            quick-release;
         };
     };
 
