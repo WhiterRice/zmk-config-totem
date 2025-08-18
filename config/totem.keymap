@@ -35,7 +35,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <>;
+            key-positions = <11 10>;
         };
 
         esc {
@@ -43,13 +43,19 @@
             key-positions = <>;
         };
 
-        shift_nav {
-            bindings = <&mo 3>;
+        nav {
+            bindings = <&mo 1>;
             key-positions = <34 10>;
             slow-release;
         };
 
         ctrl_nav {
+            bindings = <&mo 3>;
+            key-positions = <34 13>;
+            slow-release;
+        };
+
+        shft_nav {
             bindings = <&mo 3>;
             key-positions = <34 12>;
             slow-release;
@@ -58,6 +64,18 @@
         alt_nav {
             bindings = <&mo 3>;
             key-positions = <34 11>;
+            slow-release;
+        };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <33 13>;
+            slow-release;
+        };
+
+        alt {
+            bindings = <&sk LALT>;
+            key-positions = <33 11>;
             slow-release;
         };
     };
@@ -237,10 +255,10 @@
         shift_nav_layer {
             label = "SHFT_NAVI";
             bindings = <
-        &kp LS(F11)    &kp LS(F12)   &kp LS(UP)    &kp SLCK       &kp PAUSE_BREAK    &kp TILDE     &kp UNDER      &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE
-        &kp LS(PSCRN)  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans             &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)  &kp LS(END)     &kp LS(INS)
-&trans  &kp LS(F1)     &kp LS(F2)    &kp LS(F3)    &kp LS(F4)     &kp LS(F5)         &kp LS(F6)    &kp LS(F7)     &kp LS(F8)     &kp LS(F9)      &kp LS(F10)      &kp PIPE
-                                     &trans        &trans         &kp LS(RET)        &trans        &trans         &trans
+        &kp LS(F11)    &kp LS(F12)   &kp LS(UP)    &kp LS(SLCK)   &kp LS(PAUSE_BREAK)    &kp TILDE     &kp UNDER      &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE
+        &kp LS(PSCRN)  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans                 &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)  &kp LS(END)     &kp LS(INS)
+&trans  &kp LS(F1)     &kp LS(F2)    &kp LS(F3)    &kp LS(F4)     &kp LS(F5)             &kp LS(F6)    &kp LS(F7)     &kp LS(F8)     &kp LS(F9)      &kp LS(F10)      &kp PIPE
+                                     &trans        &trans         &trans                 &trans        &trans         &trans
             >;
         };
 
