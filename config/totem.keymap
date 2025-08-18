@@ -38,11 +38,6 @@
             key-positions = <>;
         };
 
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-        };
-
         nav {
             bindings = <&mo 1>;
             key-positions = <34 10>;
@@ -77,6 +72,11 @@
             bindings = <&sk LALT>;
             key-positions = <33 11>;
             slow-release;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
         };
     };
 
