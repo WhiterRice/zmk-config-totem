@@ -40,7 +40,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <1 0>;
+            key-positions = <>;
         };
 
         nav {
