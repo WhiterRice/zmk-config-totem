@@ -40,37 +40,37 @@
 
         nav {
             bindings = <&mo 1>;
-            key-positions = <34 10>;
+            key-positions = <34 12>;
             slow-release;
         };
 
         ctrl_nav {
             bindings = <&mo 3>;
-            key-positions = <34 13>;
+            key-positions = <34 3>;
             slow-release;
         };
 
         shft_nav {
             bindings = <&mo 4>;
-            key-positions = <34 12>;
+            key-positions = <34 2>;
             slow-release;
         };
 
         alt_nav {
             bindings = <&mo 5>;
-            key-positions = <34 11>;
+            key-positions = <34 1>;
             slow-release;
         };
 
         ctrl {
             bindings = <&sk LCTRL>;
-            key-positions = <33 13>;
+            key-positions = <13 34>;
             slow-release;
         };
 
         alt {
             bindings = <&sk LALT>;
-            key-positions = <33 11>;
+            key-positions = <11 34>;
             slow-release;
         };
 
@@ -81,7 +81,7 @@
 
         gui {
             bindings = <&sk LGUI>;
-            key-positions = <33 10>;
+            key-positions = <10 34>;
             slow-release;
         };
     };
