@@ -39,25 +39,25 @@
         };
 
         nav {
-            bindings = <&mo 1>;
+            bindings = <&sl 1>;
             key-positions = <34 12>;
             slow-release;
         };
 
         ctrl_nav {
-            bindings = <&mo 3>;
+            bindings = <&sl 3>;
             key-positions = <34 3>;
             slow-release;
         };
 
         shft_nav {
-            bindings = <&mo 4>;
+            bindings = <&sl 4>;
             key-positions = <34 2>;
             slow-release;
         };
 
         alt_nav {
-            bindings = <&mo 5>;
+            bindings = <&sl 5>;
             key-positions = <34 1>;
             slow-release;
         };
@@ -82,6 +82,30 @@
         gui {
             bindings = <&sk LGUI>;
             key-positions = <10 34>;
+            slow-release;
+        };
+
+        ctrl+alt {
+            bindings = <&sk LC(LEFT_ALT)>;
+            key-positions = <34 11 13>;
+            slow-release;
+        };
+
+        ctrl+gui {
+            bindings = <&sk LC(LGUI)>;
+            key-positions = <34 10 13>;
+            slow-release;
+        };
+
+        alt+gui {
+            bindings = <&sk LA(LGUI)>;
+            key-positions = <34 10 11>;
+            slow-release;
+        };
+
+        ctrl+alt+gui {
+            bindings = <&sk LC(LA(LGUI))>;
+            key-positions = <34 10 11 13>;
             slow-release;
         };
     };
