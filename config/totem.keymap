@@ -178,7 +178,6 @@
             #binding-cells = <1>;
             release-after-ms = <1000>;
             label = "NEW_BEHAVIOR";
-            quick-release;
         };
     };
 
