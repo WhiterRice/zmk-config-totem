@@ -46,6 +46,19 @@
         shift_nav {
             bindings = <&mo 2>;
             key-positions = <13 34>;
+            slow-release;
+        };
+
+        ctrl_nav {
+            bindings = <&mo 2>;
+            key-positions = <34 12>;
+            slow-release;
+        };
+
+        alt_nav {
+            bindings = <&mo 2>;
+            key-positions = <34 11>;
+            slow-release;
         };
     };
 
@@ -168,7 +181,7 @@
             bindings = <
          &kp Q  &kp W  &kp E    &kp R     &kp T        &kp Y      &kp U     &kp I       &kp O    &kp P
          &kp A  &kp S  &kp D    &kp F     &kp G        &kp H      &kp J     &kp K       &kp L    &kp SEMI
-&kp TAB  &kp Z  &kp X  &kp C    &kp V     &kp B        &kp N      &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
+&kp ESC  &kp Z  &kp X  &kp C    &kp V     &kp B        &kp N      &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
                        &kp TAB  &kp BSPC  &sk LSHFT    &kp SPACE  &kp BSPC  &kp DELETE
             >;
         };
@@ -200,10 +213,10 @@
         shift_nav_layer {
             label = "SHFT_NAVI";
             bindings = <
-        &kp F11    &kp F12       &kp LS(UP)    &kp SLCK       &kp PAUSE_BREAK    &kp TILDE  &kp UNDER      &kp PLUS     &kp LEFT_BRACE  &kp RIGHT_BRACE
-        &kp PSCRN  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans             &kp HOME   &kp PG_DN      &kp PG_UP    &kp END         &kp INS
-&trans  &kp F1     &kp F2        &kp F3        &kp F4         &kp F5             &kp F6     &kp F7         &kp F8       &kp F9          &kp F10          &kp BSLH
-                                 &trans        &trans         &trans             &trans     &kp LC(PG_UP)  &kp LA(INS)
+        &kp F11    &kp F12       &kp LS(UP)    &kp SLCK       &kp PAUSE_BREAK    &kp TILDE     &kp UNDER      &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE
+        &kp PSCRN  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &trans             &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)  &kp LS(END)     &kp LS(INS)
+&trans  &kp F1     &kp F2        &kp F3        &kp F4         &kp F5             &kp F6        &kp F7         &kp F8         &kp F9          &kp F10          &kp PIPE
+                                 &trans        &trans         &kp LS(RET)        &trans        &kp LC(PG_UP)  &kp LA(INS)
             >;
         };
 
