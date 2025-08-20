@@ -33,11 +33,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <>;
-        };
-
         nav {
             bindings = <&sl 2>;
             key-positions = <>;
@@ -72,11 +67,6 @@
             bindings = <&sk LALT>;
             key-positions = <11 34>;
             slow-release;
-        };
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <>;
         };
 
         gui {
