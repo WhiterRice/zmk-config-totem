@@ -76,7 +76,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <10 11>;
+            key-positions = <>;
         };
 
         gui {
@@ -251,10 +251,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp F11    &kp F12   &kp UP    &kp SLCK   &kp PAUSE_BREAK    &kp GRAVE   &kp MINUS   &kp EQUAL  &kp LBKT  &kp RBKT
-                &kp PSCRN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RET            &kp HOME    &kp PG_DN   &kp PG_UP  &kp END   &kp INS
-&studio_unlock  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5             &kp F6      &kp F7      &kp F8     &kp F9    &kp F10   &kp BSLH
-                                     &trans    &trans     &trans             &caps_word  &alts_word  &trans
+                &kp F11  &kp F12   &kp UP    &kp PSCRN  &kp PAUSE_BREAK    &kp GRAVE   &kp MINUS   &kp EQUAL  &kp LBKT  &kp RBKT
+                &kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RET            &kp HOME    &kp PG_DN   &kp PG_UP  &kp END   &kp INS
+&studio_unlock  &kp F1   &kp F2    &kp F3    &kp F4     &kp F5             &kp F6      &kp F7      &kp F8     &kp F9    &kp F10   &kp BSLH
+                                   &trans    &trans     &trans             &caps_word  &alts_word  &kp SLCK
             >;
         };
 
