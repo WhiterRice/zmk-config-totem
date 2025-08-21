@@ -33,9 +33,9 @@
     combos {
         compatible = "zmk,combos";
 
-        nav {
-            bindings = <&sl 2>;
-            key-positions = <>;
+        num {
+            bindings = <&sl 1>;
+            key-positions = <34 35>;
             slow-release;
         };
 
