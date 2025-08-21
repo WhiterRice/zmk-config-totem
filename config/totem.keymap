@@ -41,7 +41,7 @@
 
         ctrl_nav {
             bindings = <&sl 3>;
-            key-positions = <34 3>;
+            key-positions = <34 1>;
             slow-release;
         };
 
@@ -53,19 +53,19 @@
 
         alt_nav {
             bindings = <&sl 5>;
-            key-positions = <34 1>;
+            key-positions = <34 3>;
             slow-release;
         };
 
         ctrl {
             bindings = <&sk LCTRL>;
-            key-positions = <13 34>;
+            key-positions = <34 11>;
             slow-release;
         };
 
         alt {
             bindings = <&sk LALT>;
-            key-positions = <11 34>;
+            key-positions = <34 13>;
             slow-release;
         };
 
@@ -83,13 +83,13 @@
 
         ctrl+gui {
             bindings = <&sk LC(LGUI)>;
-            key-positions = <34 10 13>;
+            key-positions = <34 10 11>;
             slow-release;
         };
 
         alt+gui {
             bindings = <&sk LA(LGUI)>;
-            key-positions = <34 10 11>;
+            key-positions = <34 10 13>;
             slow-release;
         };
 
