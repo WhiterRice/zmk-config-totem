@@ -124,13 +124,13 @@
         };
 
         shft+nav {
-            bindings = <&sl 3>;
+            bindings = <&ml LSHFT 2>;
             key-positions = <13 34>;
             slow-release;
         };
 
         ctrl+nav {
-            bindings = <&sl 4>;
+            bindings = <&ml LCTRL 2>;
             key-positions = <12 34>;
             slow-release;
         };
@@ -142,7 +142,7 @@
         };
 
         gui+nav {
-            bindings = <&sl 6>;
+            bindings = <&ml LGUI 2>;
             key-positions = <34 10>;
             slow-release;
         };
@@ -362,46 +362,6 @@
             >;
         };
 
-        shift_nav {
-            label = "SHFT_NAVI";
-            bindings = <
-             &kp LS(PSCRN)  &kp LS(TAB)   &kp LS(UP)    &kp LS(SLCK)   &kp LS(PAUSE_BREAK)    &kp UNDER     &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-             &kp LS(ESC)    &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &kp LS(RET)            &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)   &kp LS(END)      &kp LS(INS)
-&kp LS(F12)  &kp LS(F1)     &kp LS(F2)    &kp LS(F3)    &kp LS(F4)     &kp LS(F5)             &kp LS(F6)    &kp LS(F7)     &kp LS(F8)      &kp LS(F9)       &kp LS(F10)  &kp LS(F11)
-                                          &trans        &trans         &trans                 &trans        &trans         &trans
-            >;
-        };
-
-        ctrl_nav {
-            label = "CTRL_NAVI";
-            bindings = <
-             &kp LC(PSCRN)  &kp LC(TAB)   &kp LC(UP)    &kp LC(SLCK)   &kp LC(PAUSE_BREAK)    &kp LC(GRAVE)  &kp LC(MINUS)  &kp LC(EQUAL)  &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)
-             &kp LC(ESC)    &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(RIGHT)  &kp LC(RET)            &kp LC(HOME)   &kp LC(PG_DN)  &kp LC(PG_UP)  &kp LC(END)           &kp LC(INS)
-&kp LC(F12)  &kp LC(F1)     &kp LC(F2)    &kp LC(F3)    &kp LC(F4)     &kp LC(F5)             &kp LC(F6)     &kp LC(F7)     &kp LC(F8)     &kp LC(F9)            &kp LC(F10)            &kp LC(F11)
-                                          &trans        &trans         &trans                 &trans         &trans         &trans
-            >;
-        };
-
-        alt_nav {
-            label = "ALT_NAVI";
-            bindings = <
-             &kp LA(PSCRN)  &kp LA(TAB)   &kp LA(UP)    &kp LA(PSCRN)  &kp LA(PAUSE_BREAK)    &kp LA(GRAVE)  &kp LA(MINUS)  &kp LA(EQUAL)  &kp LA(LBKT)  &kp LA(RBKT)
-             &kp LA(ESC)    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(RIGHT)  &kp LA(RET)            &kp LA(HOME)   &kp LA(PG_DN)  &kp LA(PG_UP)  &kp LA(END)   &kp LA(INS)
-&kp LA(F12)  &kp LA(F1)     &kp LA(F2)    &kp LA(F3)    &kp LA(F4)     &kp LA(F5)             &kp LA(F6)     &kp LA(F7)     &kp LA(F8)     &kp LA(F9)    &kp LA(F10)   &kp LA(F11)
-                                          &trans        &trans         &trans                 &trans         &trans         &trans
-            >;
-        };
-
-        gui_nav {
-            label = "GUI_NAVI";
-            bindings = <
-             &kp LG(PSCRN)  &kp LG(TAB)   &kp LG(UP)    &kp LG(PSCRN)  &kp LG(PAUSE_BREAK)    &kp LG(GRAVE)  &kp LG(MINUS)  &kp LG(EQUAL)  &kp LG(LBKT)  &kp LG(RBKT)
-             &kp LG(ESC)    &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &kp LG(RET)            &kp LG(HOME)   &kp LG(PG_DN)  &kp LG(PG_UP)  &kp LG(END)   &kp LG(INS)
-&kp LG(F12)  &kp LG(F1)     &kp LG(F2)    &kp LG(F3)    &kp LG(F4)     &kp LG(F5)             &kp LG(F6)     &kp LG(F7)     &kp LG(F8)     &kp LG(F9)    &kp LG(F10)   &kp LG(F11)
-                                          &trans        &trans         &trans                 &trans         &trans         &trans
-            >;
-        };
-
         adjust_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
@@ -423,6 +383,24 @@
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans        &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
