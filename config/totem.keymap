@@ -122,6 +122,24 @@
             key-positions = <10 13 33 11>;
             slow-release;
         };
+
+        shft+nav {
+            bindings = <&sl 3>;
+            key-positions = <13 34>;
+            slow-release;
+        };
+
+        ctrl+nav {
+            bindings = <&sl 4>;
+            key-positions = <12 34>;
+            slow-release;
+        };
+
+        alt+nav {
+            bindings = <&sl 5>;
+            key-positions = <11 34>;
+            slow-release;
+        };
     };
 
     macros {
