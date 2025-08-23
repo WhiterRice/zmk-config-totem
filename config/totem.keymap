@@ -46,7 +46,7 @@
         };
 
         alt {
-            bindings = <&sk LALT>;
+            bindings = <&kp LALT>;
             key-positions = <11 33>;
             slow-release;
         };
@@ -94,7 +94,7 @@
         };
 
         alt+shft {
-            bindings = <&sk LA(LSHFT)>;
+            bindings = <&kp LA(LSHFT)>;
             key-positions = <33 13 11>;
             slow-release;
         };
@@ -136,7 +136,7 @@
         };
 
         alt+nav {
-            bindings = <&sl 5>;
+            bindings = <&mo 5>;
             key-positions = <11 34>;
             slow-release;
         };
