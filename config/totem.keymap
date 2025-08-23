@@ -140,6 +140,22 @@
             key-positions = <11 34>;
             slow-release;
         };
+
+        gui+nav {
+            bindings = <&sl 6>;
+            key-positions = <34 10>;
+            slow-release;
+        };
+
+        capsword {
+            bindings = <&caps_word>;
+            key-positions = <13 16>;
+        };
+
+        altsword {
+            bindings = <&alts_word>;
+            key-positions = <11 18>;
+        };
     };
 
     macros {
@@ -340,6 +356,16 @@
              &kp LA(PSCRN)  &kp LA(TAB)   &kp LA(UP)    &kp LA(PSCRN)  &kp LA(PAUSE_BREAK)    &kp LA(GRAVE)  &kp LA(MINUS)  &kp LA(EQUAL)  &kp LA(LBKT)  &kp LA(RBKT)
              &kp LA(ESC)    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(RIGHT)  &kp LA(RET)            &kp LA(HOME)   &kp LA(PG_DN)  &kp LA(PG_UP)  &kp LA(END)   &kp LA(INS)
 &kp LA(F12)  &kp LA(F1)     &kp LA(F2)    &kp LA(F3)    &kp LA(F4)     &kp LA(F5)             &kp LA(F6)     &kp LA(F7)     &kp LA(F8)     &kp LA(F9)    &kp LA(F10)   &kp LA(F11)
+                                          &trans        &trans         &trans                 &trans         &trans         &trans
+            >;
+        };
+
+        gui_nav {
+            label = "GUI_NAVI";
+            bindings = <
+             &kp LG(PSCRN)  &kp LG(TAB)   &kp LG(UP)    &kp LG(PSCRN)  &kp LG(PAUSE_BREAK)    &kp LG(GRAVE)  &kp LG(MINUS)  &kp LG(EQUAL)  &kp LG(LBKT)  &kp LG(RBKT)
+             &kp LG(ESC)    &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &kp LG(RET)            &kp LG(HOME)   &kp LG(PG_DN)  &kp LG(PG_UP)  &kp LG(END)   &kp LG(INS)
+&kp LG(F12)  &kp LG(F1)     &kp LG(F2)    &kp LG(F3)    &kp LG(F4)     &kp LG(F5)             &kp LG(F6)     &kp LG(F7)     &kp LG(F8)     &kp LG(F9)    &kp LG(F10)   &kp LG(F11)
                                           &trans        &trans         &trans                 &trans         &trans         &trans
             >;
         };
