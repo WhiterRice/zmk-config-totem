@@ -53,13 +53,13 @@
 
         gui {
             bindings = <&sk LGUI>;
-            key-positions = <34 10>;
+            key-positions = <10 33>;
             slow-release;
         };
 
         shft+ctrl {
             bindings = <&sk LS(LCTRL)>;
-            key-positions = <11 12 34>;
+            key-positions = <12 33 13>;
             slow-release;
         };
 
@@ -69,27 +69,27 @@
             slow-release;
         };
 
+        shft+ctrl+alt+gui {
+            bindings = <&sk LC(LS(LA(LGUI)))>;
+            key-positions = <11 12 33 10 13>;
+            slow-release;
+        };
+
         ctrl+alt {
-            bindings = <&sk LC(LEFT_ALT)>;
-            key-positions = <11 12 33>;
-            slow-release;
-        };
-
-        ctrl+gui {
-            bindings = <&sk LC(LGUI)>;
-            key-positions = <10 12 33>;
-            slow-release;
-        };
-
-        alt+gui {
-            bindings = <&sk LA(LGUI)>;
-            key-positions = <10 11 33>;
+            bindings = <&sk LC(LALT)>;
+            key-positions = <33 12 11>;
             slow-release;
         };
 
         ctrl+alt+gui {
+            bindings = <&sk LA(LC(LGUI))>;
+            key-positions = <10 11 33 12>;
+            slow-release;
+        };
+
+        alt+gui {
             bindings = <&sk LC(LA(LGUI))>;
-            key-positions = <10 11 12 33>;
+            key-positions = <10 11 33>;
             slow-release;
         };
     };
