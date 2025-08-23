@@ -100,25 +100,25 @@
         };
 
         alt+gui {
-            bindings = <&kp LA(LGUI)>;
+            bindings = <&sk LA(LGUI)>;
             key-positions = <10 11 33>;
             slow-release;
         };
 
         shft+gui {
-            bindings = <&kp LS(LGUI)>;
+            bindings = <&sk LS(LGUI)>;
             key-positions = <10 13 33>;
             slow-release;
         };
 
         ctrl+shft+gui {
-            bindings = <&kp LS(LC(LGUI))>;
+            bindings = <&sk LS(LC(LGUI))>;
             key-positions = <10 13 33 12>;
             slow-release;
         };
 
         alt+shft+gui {
-            bindings = <&kp LS(LA(LGUI))>;
+            bindings = <&sk LS(LA(LGUI))>;
             key-positions = <10 13 33 11>;
             slow-release;
         };
