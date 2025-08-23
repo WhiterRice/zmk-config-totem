@@ -41,61 +41,61 @@
 
         ctrl_nav {
             bindings = <&sl 3>;
-            key-positions = <34 1>;
+            key-positions = <34 12>;
             slow-release;
         };
 
         shft_nav {
             bindings = <&sl 4>;
-            key-positions = <34 2>;
+            key-positions = <34 13>;
             slow-release;
         };
 
         alt_nav {
             bindings = <&sl 5>;
-            key-positions = <34 3>;
+            key-positions = <34 11>;
             slow-release;
         };
 
         ctrl {
             bindings = <&sk LCTRL>;
-            key-positions = <34 11>;
+            key-positions = <33 12>;
             slow-release;
         };
 
         alt {
             bindings = <&sk LALT>;
-            key-positions = <34 13>;
+            key-positions = <11 33>;
             slow-release;
         };
 
         gui {
             bindings = <&sk LGUI>;
-            key-positions = <10 34>;
+            key-positions = <10 33>;
             slow-release;
         };
 
         ctrl+alt {
             bindings = <&sk LC(LEFT_ALT)>;
-            key-positions = <34 11 13>;
+            key-positions = <11 12 33>;
             slow-release;
         };
 
         ctrl+gui {
             bindings = <&sk LC(LGUI)>;
-            key-positions = <34 10 11>;
+            key-positions = <10 12 33>;
             slow-release;
         };
 
         alt+gui {
             bindings = <&sk LA(LGUI)>;
-            key-positions = <34 10 13>;
+            key-positions = <10 11 33>;
             slow-release;
         };
 
         ctrl+alt+gui {
             bindings = <&sk LC(LA(LGUI))>;
-            key-positions = <34 10 11 13>;
+            key-positions = <10 11 12 33>;
             slow-release;
         };
     };
