@@ -35,7 +35,7 @@
 
         num {
             bindings = <&sl 1>;
-            key-positions = <34 35>;
+            key-positions = <>;
             slow-release;
         };
 
