@@ -33,27 +33,9 @@
     combos {
         compatible = "zmk,combos";
 
-        num {
-            bindings = <&sl 1>;
-            key-positions = <>;
-            slow-release;
-        };
-
-        shft_nav {
-            bindings = <&sl 3>;
-            key-positions = <34 12>;
-            slow-release;
-        };
-
-        ctrl_nav {
-            bindings = <&sl 4>;
-            key-positions = <34 13>;
-            slow-release;
-        };
-
-        alt_nav {
-            bindings = <&sl 5>;
-            key-positions = <34 11>;
+        shft {
+            bindings = <&sk LSHFT>;
+            key-positions = <13 33>;
             slow-release;
         };
 
@@ -66,6 +48,18 @@
         alt {
             bindings = <&sk LALT>;
             key-positions = <11 33>;
+            slow-release;
+        };
+
+        gui {
+            bindings = <&sk LGUI>;
+            key-positions = <34 10>;
+            slow-release;
+        };
+
+        alt {
+            bindings = <&sk LALT>;
+            key-positions = <11 12 34>;
             slow-release;
         };
 
