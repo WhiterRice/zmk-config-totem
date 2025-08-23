@@ -265,7 +265,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans   &trans    &kp UP    &kp PSCRN  &kp PAUSE_BREAK    &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT        &kp RBKT
+        &trans   &kp TAB   &kp UP    &kp PSCRN  &kp PAUSE_BREAK    &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT        &kp RBKT
         &kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RET            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END         &kp INS
 &trans  &trans   &trans    &trans    &trans     &trans             &kp TILDE  &kp UNDER  &kp PLUS   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSLH
                            &trans    &trans     &trans             &kp RCTRL  &kp RALT   &kp RSHFT
