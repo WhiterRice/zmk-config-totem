@@ -156,6 +156,72 @@
             bindings = <&alts_word>;
             key-positions = <11 18>;
         };
+
+        ctrl+alt+nav {
+            bindings = <&ml LC(LALT) 2>;
+            key-positions = <12 34 11>;
+            slow-release;
+        };
+
+        ctrl+shft+nav {
+            bindings = <&ml LC(LSHFT) 2>;
+            key-positions = <12 34 13>;
+            slow-release;
+        };
+
+        ctrl+gui+nav {
+            bindings = <&ml LC(LGUI) 2>;
+            key-positions = <12 34 10>;
+            slow-release;
+        };
+
+        alt+shft+nav {
+            bindings = <&ml LA(LSHFT) 2>;
+            key-positions = <34 11 13>;
+            slow-release;
+        };
+
+        alt+gui+nav {
+            bindings = <&ml LA(LGUI) 2>;
+            key-positions = <34 11 13>;
+            slow-release;
+        };
+
+        shft+gui+nav {
+            bindings = <&ml LS(LGUI) 2>;
+            key-positions = <13 34 10>;
+            slow-release;
+        };
+
+        ctrl+alt+shft+nav {
+            bindings = <&ml LC(LA(LSHFT)) 2>;
+            key-positions = <12 34 11 13>;
+            slow-release;
+        };
+
+        ctrl+alt+gui+nav {
+            bindings = <&ml LA(LC(LGUI)) 2>;
+            key-positions = <34 11 10 12>;
+            slow-release;
+        };
+
+        ctrl+shft+gui+nav {
+            bindings = <&ml LC(LS(LGUI)) 2>;
+            key-positions = <34 13 10 12>;
+            slow-release;
+        };
+
+        alt+shft+gui+nav {
+            bindings = <&ml LS(LA(LGUI)) 2>;
+            key-positions = <34 13 10 11>;
+            slow-release;
+        };
+
+        ctrl+alt+shft+gui+nav {
+            bindings = <&ml LS(LA(LC(LGUI))) 2>;
+            key-positions = <34 13 10 11 12>;
+            slow-release;
+        };
     };
 
     macros {
