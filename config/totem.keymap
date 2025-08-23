@@ -94,7 +94,7 @@
         };
 
         alt+shft {
-            bindings = <&sk LC(LA(LSHFT))>;
+            bindings = <&sk LA(LSHFT)>;
             key-positions = <33 13 11>;
             slow-release;
         };
