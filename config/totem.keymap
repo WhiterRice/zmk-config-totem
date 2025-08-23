@@ -87,9 +87,39 @@
             slow-release;
         };
 
+        ctrl+gui {
+            bindings = <&sk LC(LGUI)>;
+            key-positions = <10 33 12>;
+            slow-release;
+        };
+
+        alt+shft {
+            bindings = <&sk LC(LA(LSHFT))>;
+            key-positions = <33 13 11>;
+            slow-release;
+        };
+
         alt+gui {
-            bindings = <&sk LC(LA(LGUI))>;
+            bindings = <&kp LA(LGUI)>;
             key-positions = <10 11 33>;
+            slow-release;
+        };
+
+        shft+gui {
+            bindings = <&kp LS(LGUI)>;
+            key-positions = <10 13 33>;
+            slow-release;
+        };
+
+        ctrl+shft+gui {
+            bindings = <&kp LS(LC(LGUI))>;
+            key-positions = <10 13 33 12>;
+            slow-release;
+        };
+
+        alt+shft+gui {
+            bindings = <&kp LS(LA(LGUI))>;
+            key-positions = <10 13 33 11>;
             slow-release;
         };
     };
