@@ -299,10 +299,10 @@
         shift_nav {
             label = "SHFT_NAVI";
             bindings = <
-        &kp LS(F11)  &kp LS(F12)   &kp LS(UP)    &kp LS(PSCRN)  &kp LS(PAUSE_BREAK)    &kp TILDE     &kp UNDER      &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE
-        &kp LS(ESC)  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &kp LS(RET)            &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)  &kp LS(END)     &kp LS(INS)
-&trans  &trans       &trans        &trans        &trans         &trans                 &kp LS(F6)    &kp LS(F7)     &kp LS(F8)     &kp LS(F9)      &kp LS(F10)      &kp PIPE
-                                   &trans        &trans         &trans                 &trans        &trans         &trans
+        &kp LS(PSCRN)  &kp LS(TAB)   &kp LS(UP)    &kp LS(SLCK)   &kp LS(PAUSE_BREAK)    &kp UNDER     &kp PLUS       &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
+        &kp LS(ESC)    &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &kp LS(RET)            &kp LS(HOME)  &kp LS(PG_DN)  &kp LS(PG_UP)   &kp LS(END)      &kp LS(INS)
+&trans  &trans         &trans        &trans        &trans         &trans                 &trans        &trans         &trans          &trans           &trans       &trans
+                                     &trans        &trans         &trans                 &trans        &trans         &trans
             >;
         };
 
