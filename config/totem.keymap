@@ -241,7 +241,7 @@
                 <&kp G &kp I &kp F>;
         };
 
-        ml: lm {
+        ml: mod_layer {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
             bindings =
@@ -256,8 +256,6 @@
                 <&mo MACRO_PLACEHOLDER &macro_param_1to1>,
                 <&macro_release>,
                 <&kp MACRO_PLACEHOLDER>;
-
-            label = "LM";
         };
     };
 
