@@ -220,7 +220,7 @@
         };
 
         alts_word {
-            bindings = <&alts_word>;
+            bindings = <&aw>;
             key-positions = <11 18>;
         };
     };
@@ -262,10 +262,10 @@
     };
 
     behaviors {
-        alts_word: aw {
+        aw: alts_words {
             compatible = "zmk,behavior-caps-word";
             #binding-cells = <0>;
-            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
+            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z BSPC DELETE>;
             mods = <(MOD_LALT)>;
         };
 
