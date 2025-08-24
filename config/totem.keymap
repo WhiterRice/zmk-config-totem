@@ -148,16 +148,6 @@
             slow-release;
         };
 
-        capsword {
-            bindings = <&caps_word>;
-            key-positions = <13 16>;
-        };
-
-        altsword {
-            bindings = <&alts_word>;
-            key-positions = <11 18>;
-        };
-
         ctrl+alt+nav {
             bindings = <&ml LC(LALT) 2>;
             key-positions = <34 11 13>;
@@ -222,6 +212,16 @@
             bindings = <&ml LS(LA(LC(LGUI))) 2>;
             key-positions = <34 13 10 11 12>;
             slow-release;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <12 17>;
+        };
+
+        alts_word {
+            bindings = <&alts_word>;
+            key-positions = <11 18>;
         };
     };
 
