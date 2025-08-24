@@ -35,7 +35,7 @@
         compatible = "zmk,combos";
 
         shft {
-            bindings = <&sk LSHFT>;
+            bindings = <&kp LSHFT>;
             key-positions = <33 12>;
             slow-release;
         };
@@ -53,43 +53,43 @@
         };
 
         gui {
-            bindings = <&sk LGUI>;
+            bindings = <&kp LGUI>;
             key-positions = <10 33>;
             slow-release;
         };
 
         shft+ctrl {
-            bindings = <&sk LS(LCTRL)>;
+            bindings = <&kp LS(LCTRL)>;
             key-positions = <12 33 13>;
             slow-release;
         };
 
         shift+ctrl+alt {
-            bindings = <&sk LS(LC(LALT))>;
+            bindings = <&kp LS(LC(LALT))>;
             key-positions = <33 13 12 11>;
             slow-release;
         };
 
         shft+ctrl+alt+gui {
-            bindings = <&sk LC(LS(LA(LGUI)))>;
+            bindings = <&kp LC(LS(LA(LGUI)))>;
             key-positions = <11 12 33 10 13>;
             slow-release;
         };
 
         ctrl+alt {
-            bindings = <&sk LC(LALT)>;
+            bindings = <&kp LC(LALT)>;
             key-positions = <33 11 13>;
             slow-release;
         };
 
         ctrl+alt+gui {
-            bindings = <&sk LA(LC(LGUI))>;
+            bindings = <&kp LA(LC(LGUI))>;
             key-positions = <10 11 33 13>;
             slow-release;
         };
 
         ctrl+gui {
-            bindings = <&sk LC(LGUI)>;
+            bindings = <&kp LC(LGUI)>;
             key-positions = <10 33 13>;
             slow-release;
         };
@@ -101,115 +101,115 @@
         };
 
         alt+gui {
-            bindings = <&sk LA(LGUI)>;
+            bindings = <&kp LA(LGUI)>;
             key-positions = <10 11 33>;
             slow-release;
         };
 
         shft+gui {
-            bindings = <&sk LS(LGUI)>;
+            bindings = <&kp LS(LGUI)>;
             key-positions = <10 33 12>;
             slow-release;
         };
 
         ctrl+shft+gui {
-            bindings = <&sk LS(LC(LGUI))>;
+            bindings = <&kp LS(LC(LGUI))>;
             key-positions = <10 13 33 12>;
             slow-release;
         };
 
         alt+shft+gui {
-            bindings = <&sk LS(LA(LGUI))>;
+            bindings = <&kp LS(LA(LGUI))>;
             key-positions = <10 33 11 12>;
             slow-release;
         };
 
         shft+nav {
-            bindings = <&ml LSHFT 2>;
+            bindings = <&ml LSHFT 1>;
             key-positions = <34 12>;
             slow-release;
         };
 
         ctrl+nav {
-            bindings = <&ml LCTRL 2>;
+            bindings = <&ml LCTRL 1>;
             key-positions = <34 13>;
             slow-release;
         };
 
         alt+nav {
-            bindings = <&ml LALT 2>;
+            bindings = <&ml LALT 1>;
             key-positions = <11 34>;
             slow-release;
         };
 
         gui+nav {
-            bindings = <&ml LGUI 2>;
+            bindings = <&ml LGUI 1>;
             key-positions = <34 10>;
             slow-release;
         };
 
         ctrl+alt+nav {
-            bindings = <&ml LC(LALT) 2>;
+            bindings = <&ml LC(LALT) 1>;
             key-positions = <34 11 13>;
             slow-release;
         };
 
         ctrl+shft+nav {
-            bindings = <&ml LC(LSHFT) 2>;
+            bindings = <&ml LC(LSHFT) 1>;
             key-positions = <12 34 13>;
             slow-release;
         };
 
         ctrl+gui+nav {
-            bindings = <&ml LC(LGUI) 2>;
+            bindings = <&ml LC(LGUI) 1>;
             key-positions = <34 10 13>;
             slow-release;
         };
 
         alt+shft+nav {
-            bindings = <&ml LA(LSHFT) 2>;
+            bindings = <&ml LA(LSHFT) 1>;
             key-positions = <34 11 12>;
             slow-release;
         };
 
         alt+gui+nav {
-            bindings = <&ml LA(LGUI) 2>;
+            bindings = <&ml LA(LGUI) 1>;
             key-positions = <34 11 10>;
             slow-release;
         };
 
         shft+gui+nav {
-            bindings = <&ml LS(LGUI) 2>;
+            bindings = <&ml LS(LGUI) 1>;
             key-positions = <34 10 12>;
             slow-release;
         };
 
         ctrl+alt+shft+nav {
-            bindings = <&ml LC(LA(LSHFT)) 2>;
+            bindings = <&ml LC(LA(LSHFT)) 1>;
             key-positions = <12 34 11 13>;
             slow-release;
         };
 
         ctrl+alt+gui+nav {
-            bindings = <&ml LA(LC(LGUI)) 2>;
+            bindings = <&ml LA(LC(LGUI)) 1>;
             key-positions = <34 11 10 13>;
             slow-release;
         };
 
         ctrl+shft+gui+nav {
-            bindings = <&ml LC(LS(LGUI)) 2>;
+            bindings = <&ml LC(LS(LGUI)) 1>;
             key-positions = <34 13 10 12>;
             slow-release;
         };
 
         alt+shft+gui+nav {
-            bindings = <&ml LS(LA(LGUI)) 2>;
+            bindings = <&ml LS(LA(LGUI)) 1>;
             key-positions = <34 10 11 12>;
             slow-release;
         };
 
         ctrl+alt+shft+gui+nav {
-            bindings = <&ml LS(LA(LC(LGUI))) 2>;
+            bindings = <&ml LS(LA(LC(LGUI))) 1>;
             key-positions = <34 13 10 11 12>;
             slow-release;
         };
@@ -362,31 +362,7 @@
            &kp Q  &kp W  &kp E          &kp R       &kp T    &kp Y        &kp U      &kp I      &kp O    &kp P
            &kp A  &kp S  &kp D          &kp F       &kp G    &kp H        &kp J      &kp K      &kp L    &kp SEMI
 &kp GRAVE  &kp Z  &kp X  &kp C          &kp V       &kp B    &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp BACKSPACE  &skq LSHFT  &sl 2    &num_word 1  &kp SPACE  &kp DEL
-            >;
-        };
-
-        num_layer {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "NUM";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
-            bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
-        &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0
-&trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans    &trans    &trans
-                          &trans    &trans    &trans       &trans     &trans    &trans
+                         &kp BACKSPACE  &skq LSHFT  &sl 1    &num_word 1  &kp SPACE  &kp DEL
             >;
         };
 
@@ -411,6 +387,30 @@
          &kp ESC    &kp LEFT  &kp DOWN  &kp RIGHT       &kp RET            &kp HOME   &kp PG_DN  &kp PG_UP         &kp END            &kp INS
 &kp F12  &kp F1     &kp F2    &kp F3    &kp F4          &kp F5             &kp F6     &kp F7     &kp F8            &kp F9             &kp F10        &kp F11
                               &trans    &trans          &trans             &kp RCTRL  &kp RALT   &kp RSHFT
+            >;
+        };
+
+        num_layer {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "NUM";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
+            // ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
+            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
+            bindings = <
+        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
+        &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0
+&trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans    &trans    &trans
+                          &trans    &trans    &trans       &trans     &trans    &trans
             >;
         };
 
