@@ -370,7 +370,7 @@
            &kp Q  &kp W  &kp E          &kp R       &kp T    &kp Y     &kp U      &kp I      &kp O    &kp P
            &kp A  &kp S  &kp D          &kp F       &kp G    &kp H     &kp J      &kp K      &kp L    &kp SEMI
 &kp GRAVE  &kp Z  &kp X  &kp C          &kp V       &kp B    &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp BACKSPACE  &skq LSHFT  &sl 1    &nlw NUM NUM  &kp SPACE  &kp DEL
+                         &kp BACKSPACE  &skq LSHFT  &sl 1    &num_word NUM  &kp SPACE  &kp DEL
             >;
         };
 
