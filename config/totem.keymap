@@ -17,8 +17,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
-#define NAV  1
-#define NUM  2
+#define NAV  2
+#define NUM  1
 #define ADJ  3
 #define TVP1 4
 #define TVP2 5
@@ -370,7 +370,7 @@
            &kp Q  &kp W  &kp E          &kp R       &kp T    &kp Y       &kp U      &kp I      &kp O    &kp P
            &kp A  &kp S  &kp D          &kp F       &kp G    &kp H       &kp J      &kp K      &kp L    &kp SEMI
 &kp GRAVE  &kp Z  &kp X  &kp C          &kp V       &kp B    &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp BACKSPACE  &skq LSHFT  &sl 2    &nlw 1 NUM  &kp SPACE  &kp DEL
+                         &kp BACKSPACE  &skq LSHFT  &sl 2    &nlw NUM NUM  &kp SPACE  &kp DEL
             >;
         };
 
