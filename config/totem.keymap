@@ -125,91 +125,91 @@
         };
 
         shft+nav {
-            bindings = <&ml LSHFT 1>;
+            bindings = <&ml LSHFT 2>;
             key-positions = <34 12>;
             slow-release;
         };
 
         ctrl+nav {
-            bindings = <&ml LCTRL 1>;
+            bindings = <&ml LCTRL 2>;
             key-positions = <34 13>;
             slow-release;
         };
 
         alt+nav {
-            bindings = <&ml LALT 1>;
+            bindings = <&ml LALT 2>;
             key-positions = <11 34>;
             slow-release;
         };
 
         gui+nav {
-            bindings = <&ml LGUI 1>;
+            bindings = <&ml LGUI 2>;
             key-positions = <34 10>;
             slow-release;
         };
 
         ctrl+alt+nav {
-            bindings = <&ml LC(LALT) 1>;
+            bindings = <&ml LC(LALT) 2>;
             key-positions = <34 11 13>;
             slow-release;
         };
 
         ctrl+shft+nav {
-            bindings = <&ml LC(LSHFT) 1>;
+            bindings = <&ml LC(LSHFT) 2>;
             key-positions = <12 34 13>;
             slow-release;
         };
 
         ctrl+gui+nav {
-            bindings = <&ml LC(LGUI) 1>;
+            bindings = <&ml LC(LGUI) 2>;
             key-positions = <34 10 13>;
             slow-release;
         };
 
         alt+shft+nav {
-            bindings = <&ml LA(LSHFT) 1>;
+            bindings = <&ml LA(LSHFT) 2>;
             key-positions = <34 11 12>;
             slow-release;
         };
 
         alt+gui+nav {
-            bindings = <&ml LA(LGUI) 1>;
+            bindings = <&ml LA(LGUI) 2>;
             key-positions = <34 11 10>;
             slow-release;
         };
 
         shft+gui+nav {
-            bindings = <&ml LS(LGUI) 1>;
+            bindings = <&ml LS(LGUI) 2>;
             key-positions = <34 10 12>;
             slow-release;
         };
 
         ctrl+alt+shft+nav {
-            bindings = <&ml LC(LA(LSHFT)) 1>;
+            bindings = <&ml LC(LA(LSHFT)) 2>;
             key-positions = <12 34 11 13>;
             slow-release;
         };
 
         ctrl+alt+gui+nav {
-            bindings = <&ml LA(LC(LGUI)) 1>;
+            bindings = <&ml LA(LC(LGUI)) 2>;
             key-positions = <34 11 10 13>;
             slow-release;
         };
 
         ctrl+shft+gui+nav {
-            bindings = <&ml LC(LS(LGUI)) 1>;
+            bindings = <&ml LC(LS(LGUI)) 2>;
             key-positions = <34 13 10 12>;
             slow-release;
         };
 
         alt+shft+gui+nav {
-            bindings = <&ml LS(LA(LGUI)) 1>;
+            bindings = <&ml LS(LA(LGUI)) 2>;
             key-positions = <34 10 11 12>;
             slow-release;
         };
 
         ctrl+alt+shft+gui+nav {
-            bindings = <&ml LS(LA(LC(LGUI))) 1>;
+            bindings = <&ml LS(LA(LC(LGUI))) 2>;
             key-positions = <34 13 10 11 12>;
             slow-release;
         };
@@ -367,34 +367,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E          &kp R       &kp T    &kp Y         &kp U      &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D          &kp F       &kp G    &kp H         &kp J      &kp K      &kp L    &kp SEMI
-&kp GRAVE  &kp Z  &kp X  &kp C          &kp V       &kp B    &kp N         &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp BACKSPACE  &skq LSHFT  &sl 1    &nlw NUM NUM  &kp SPACE  &kp DEL
-            >;
-        };
-
-        nav_layer {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "NAVI";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃           ┃           ┃     UP    ┃           ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃     +     ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃   SHIFT   ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     [     ┃   ┃     ]     ┃     4     ┃     5     ┃     6     ┃     -     ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃           ┃   P UP    ┃  C LOCK   ┃  P DOWN   ┃     (     ┃   ┃     )     ┃     1     ┃     2     ┃     3     ┃     *     ┃           ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
-            bindings = <
-         &kp PSCRN  &kp TAB   &kp UP    &kp SCROLLLOCK  &kp PAUSE_BREAK    &kp INS    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-         &kp ESC    &kp LEFT  &kp DOWN  &kp RIGHT       &kp RET            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END   &kp BSLH
-&kp F12  &kp F1     &kp F2    &kp F3    &kp F4          &kp F5             &kp F6     &kp F7     &kp F8     &kp F9    &kp F10   &kp F11
-                              &trans    &trans          &trans             &kp RCTRL  &kp RALT   &trans
+           &kp Q  &kp W  &kp E          &kp R       &kp T    &kp Y       &kp U      &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D          &kp F       &kp G    &kp H       &kp J      &kp K      &kp L    &kp SEMI
+&kp GRAVE  &kp Z  &kp X  &kp C          &kp V       &kp B    &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
+                         &kp BACKSPACE  &skq LSHFT  &sl 2    &nlw 1 NUM  &kp SPACE  &kp DEL
             >;
         };
 
@@ -419,6 +395,30 @@
         &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0
 &trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans    &trans    &trans
                           &trans    &trans    &trans       &trans     &trans    &trans
+            >;
+        };
+
+        nav_layer {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "NAVI";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃           ┃           ┃     UP    ┃           ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃     +     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃   SHIFT   ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     [     ┃   ┃     ]     ┃     4     ┃     5     ┃     6     ┃     -     ┃
+            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
+            // ┃           ┃           ┃   P UP    ┃  C LOCK   ┃  P DOWN   ┃     (     ┃   ┃     )     ┃     1     ┃     2     ┃     3     ┃     *     ┃           ┃
+            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
+            bindings = <
+         &kp PSCRN  &kp TAB   &kp UP    &kp SCROLLLOCK  &kp PAUSE_BREAK    &kp INS    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+         &kp ESC    &kp LEFT  &kp DOWN  &kp RIGHT       &kp RET            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END   &kp BSLH
+&kp F12  &kp F1     &kp F2    &kp F3    &kp F4          &kp F5             &kp F6     &kp F7     &kp F8     &kp F9    &kp F10   &kp F11
+                              &trans    &trans          &trans             &kp RCTRL  &kp RALT   &trans
             >;
         };
 
