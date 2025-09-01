@@ -41,7 +41,7 @@
         };
 
         ctrl {
-            bindings = <&kp LCTRL>;
+            bindings = <&sk LCTRL>;
             key-positions = <33 13>;
             slow-release;
         };
@@ -60,7 +60,7 @@
 
         shft+ctrl {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <>;
+            key-positions = <13 12 33>;
             slow-release;
         };
 
