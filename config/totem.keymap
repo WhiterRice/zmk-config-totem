@@ -41,7 +41,7 @@
         };
 
         ctrl {
-            bindings = <&sk LCTRL>;
+            bindings = <&kp LCTRL>;
             key-positions = <33 13>;
             slow-release;
         };
