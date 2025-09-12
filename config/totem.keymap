@@ -261,8 +261,9 @@
 
     behaviors {
 		nw: nums_word {
-			continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLSH EQUAL>;
+			compatible = "zmk,behavior-auto-layer";
 			#binding-cells = <1>;
+			continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLSH EQUAL>;
 			ignore-numbers;
 			ignore-modifiers;
 		};
@@ -345,7 +346,7 @@
 
         nlw: num_layer_word {
             compatible = "zmk,behavior-hold-tap";
-            bindings = <&mo>, <&nums_word>;
+            bindings = <&mo>, <&nw>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
