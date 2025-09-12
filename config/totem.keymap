@@ -213,16 +213,6 @@
             key-positions = <34 0 1 2 3>;
             slow-release;
         };
-
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <12 17>;
-        };
-
-        alts_word {
-            bindings = <&aw>;
-            key-positions = <11 18>;
-        };
     };
 
     macros {
@@ -260,7 +250,7 @@
     };
 
     behaviors {
-        aw: alts_words {
+        alts_word: alts_word {
             compatible = "zmk,behavior-caps-word";
             #binding-cells = <0>;
             continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z BSPC DELETE>;
@@ -415,10 +405,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp PSCRN  &kp TAB   &kp UP    &kp SCROLLLOCK  &kp PAUSE_BREAK    &kp INS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-         &kp ESC    &kp LEFT  &kp DOWN  &kp RIGHT       &kp RET            &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &kp BSLH
-&kp F12  &kp F1     &kp F2    &kp F3    &kp F4          &kp F5             &kp F6    &kp F7     &kp F8     &kp F9    &kp F10   &kp F11
-                              &trans    &trans          &trans             &trans    &trans     &trans
+         &kp F12  &kp TAB   &kp UP          &trans           &kp PSCRN    &kp PLUS  &kp MINUS   &kp EQUAL   &kp LBKT  &kp RBKT
+         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END   &kp BSLH
+&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6    &kp F7      &kp F8      &kp F9    &kp F10   &kp INS
+                            &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans       &trans    &caps_word  &alts_word
             >;
         };
 
