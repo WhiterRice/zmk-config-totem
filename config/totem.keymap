@@ -228,6 +228,11 @@
             bindings = <&alts_word>;
             key-positions = <34 37>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
