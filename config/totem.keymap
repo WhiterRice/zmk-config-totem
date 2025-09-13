@@ -403,10 +403,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME     &kp PG_DN  &kp PG_UP  &kp END   &kp BSLH
-&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6       &kp F7     &kp F8     &kp F9    &kp F10   &kp INS
-                            &kp SCROLLLOCK  &kp KP_NUMLOCK   &trans       &trans       &trans     &trans
+         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp KP_PLUS  &kp MINUS   &kp EQUAL  &kp LBKT  &kp RBKT
+         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME     &kp PG_DN   &kp PG_UP  &kp END   &kp BSLH
+&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6       &kp F7      &kp F8     &kp F9    &kp F10   &kp INS
+                            &kp SCROLLLOCK  &kp KP_NUMLOCK   &trans       &trans       &caps_word  &trans
             >;
         };
 
