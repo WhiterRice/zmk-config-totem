@@ -214,6 +214,10 @@
             slow-release;
         };
 
+        num_word {
+            bindings = <&num_word>;
+            key-positions = <34 35>;
+        };
         caps_word {
             bindings = <&caps_word>;
             key-positions = <34 36>;
