@@ -28,6 +28,10 @@
     tapping-term-ms = <170>;
 };
 
+&num_word {
+  continue-list = <BSPC DEL DOT COMMA KP_PLUS KP_SUBTRACT KP_COMMA KP_DOT KP_DIVIDE KP_MULTIPLY>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
