@@ -17,8 +17,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
-#define NUM  1
-#define NAV  2
+#define NAV  1
+#define NUM  2
 #define ADJ  3
 
 &mt {
@@ -379,10 +379,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp UNDER  &kp MINUS   &kp EQUAL   &kp LBKT  &kp RBKT
-         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME   &kp PG_DN   &kp PG_UP   &kp END   &kp BSLH
-&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6     &kp F7      &kp F8      &kp F9    &kp F10   &kp INS
-                            &kp SCROLLLOCK  &trans           &trans       &num_word  &caps_word  &alts_word
+         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp UNDER      &kp MINUS   &kp EQUAL   &kp LBKT  &kp RBKT
+         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME       &kp PG_DN   &kp PG_UP   &kp END   &kp BSLH
+&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6         &kp F7      &kp F8      &kp F9    &kp F10   &kp INS
+                            &kp SCROLLLOCK  &trans           &trans       &num_word NUM  &caps_word  &alts_word
             >;
         };
 
