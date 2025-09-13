@@ -28,9 +28,7 @@
     tapping-term-ms = <170>;
 };
 
-&num_word {
-  continue-list = <BSPC DEL DOT COMMA KP_PLUS KP_SUBTRACT KP_COMMA KP_DOT KP_DIVIDE KP_MULTIPLY>;
-};
+&num_word { continue-list = <BSPC DEL DOT COMMA KP_PLUS KP_SUBTRACT KP_COMMA KP_DOT KP_DIVIDE KP_MULTIPLY>; };
 
 / {
     combos {
@@ -215,6 +213,16 @@
             key-positions = <34 0 1 2 3>;
             slow-release;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <34 36>;
+        };
+
+        alts_word {
+            bindings = <&alts_word>;
+            key-positions = <34 37>;
+        };
     };
 
     macros {
@@ -383,10 +391,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp UNDER      &kp MINUS   &kp EQUAL   &kp LBKT  &kp RBKT
-         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME       &kp PG_DN   &kp PG_UP   &kp END   &kp BSLH
-&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6         &kp F7      &kp F8      &kp F9    &kp F10   &kp INS
-                            &kp SCROLLLOCK  &trans           &trans       &num_word NUM  &caps_word  &alts_word
+         &kp F12  &kp TAB   &kp UP          &kp PAUSE_BREAK  &kp PSCRN    &kp UNDER  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+         &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END   &kp BSLH
+&kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6     &kp F7     &kp F8     &kp F9    &kp F10   &kp INS
+                            &kp SCROLLLOCK  &trans           &trans       &kp PLUS   &kp LBRC   &kp RBRC
             >;
         };
 
