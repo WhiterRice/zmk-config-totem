@@ -360,7 +360,7 @@
            &kp Q  &kp W  &kp E          &kp R      &kp T    &kp Y         &kp U        &kp I      &kp O    &kp P
            &kp A  &kp S  &kp D          &kp F      &kp G    &kp H         &kp J        &kp K      &kp L    &kp SEMI
 &kp GRAVE  &kp Z  &kp X  &kp C          &kp V      &kp B    &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp BACKSPACE  &kp SPACE  &sl 2    &nlw NUM NUM  &skq RSHIFT  &kp DEL
+                         &kp BACKSPACE  &kp SPACE  &sl 2    &sl NUM       &skq RSHIFT  &kp DEL
             >;
         };
 
@@ -408,7 +408,7 @@
          &kp F12  &kp TAB   &kp UP          &trans           &kp PSCRN    &kp PLUS  &kp MINUS   &kp EQUAL   &kp LBKT  &kp RBKT
          &kp ESC  &kp LEFT  &kp DOWN        &kp RIGHT        &kp RET      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END   &kp BSLH
 &kp F11  &kp F1   &kp F2    &kp F3          &kp F4           &kp F5       &kp F6    &kp F7      &kp F8      &kp F9    &kp F10   &kp INS
-                            &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans       &trans    &caps_word  &alts_word
+                            &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans       &num_word    &caps_word  &alts_word
             >;
         };
 
