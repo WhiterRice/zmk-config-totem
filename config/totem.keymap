@@ -34,12 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        shft {
-            bindings = <&kp LSHFT>;
-            key-positions = <12 34>;
-            slow-release;
-        };
-
         ctrl {
             bindings = <&sk LCTRL>;
             key-positions = <13 34>;
@@ -52,27 +46,15 @@
             slow-release;
         };
 
+        shft {
+            bindings = <&kp LSHFT>;
+            key-positions = <12 34>;
+            slow-release;
+        };
+
         gui {
             bindings = <&kp LGUI>;
             key-positions = <10 34>;
-            slow-release;
-        };
-
-        shft+ctrl {
-            bindings = <&kp LS(LCTRL)>;
-            key-positions = <13 12 34>;
-            slow-release;
-        };
-
-        shift+ctrl+alt {
-            bindings = <&kp LS(LC(LALT))>;
-            key-positions = <13 12 11 34>;
-            slow-release;
-        };
-
-        shft+ctrl+alt+gui {
-            bindings = <&kp LC(LS(LA(LGUI)))>;
-            key-positions = <11 12 10 13 34>;
             slow-release;
         };
 
@@ -82,9 +64,9 @@
             slow-release;
         };
 
-        ctrl+alt+gui {
-            bindings = <&kp LA(LC(LGUI))>;
-            key-positions = <10 11 13 34>;
+        ctrl+shft {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <13 12 34>;
             slow-release;
         };
 
@@ -112,6 +94,18 @@
             slow-release;
         };
 
+        ctrl+alt+shft {
+            bindings = <&kp LS(LC(LALT))>;
+            key-positions = <13 12 11 34>;
+            slow-release;
+        };
+
+        ctrl+alt+gui {
+            bindings = <&kp LA(LC(LGUI))>;
+            key-positions = <10 11 13 34>;
+            slow-release;
+        };
+
         ctrl+shft+gui {
             bindings = <&kp LS(LC(LGUI))>;
             key-positions = <10 13 12 34>;
@@ -124,9 +118,9 @@
             slow-release;
         };
 
-        shft+nav {
-            bindings = <&ml LSHFT 2>;
-            key-positions = <34 2>;
+        ctrl+alt+shft+gui {
+            bindings = <&kp LC(LS(LA(LGUI)))>;
+            key-positions = <11 12 10 13 34>;
             slow-release;
         };
 
@@ -139,6 +133,12 @@
         alt+nav {
             bindings = <&ml LALT 2>;
             key-positions = <34 1>;
+            slow-release;
+        };
+
+        shft+nav {
+            bindings = <&ml LSHFT 2>;
+            key-positions = <34 2>;
             slow-release;
         };
 
