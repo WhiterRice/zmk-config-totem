@@ -229,9 +229,9 @@
             key-positions = <34 37>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
+        pscrn {
+            bindings = <&kp PSCRN>;
+            key-positions = <0 1>;
         };
     };
 
