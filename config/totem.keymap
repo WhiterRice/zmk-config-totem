@@ -233,6 +233,11 @@
             bindings = <&kp PSCRN>;
             key-positions = <0 1>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -426,9 +431,9 @@
 
             bindings = <
          &kp HOME  &kp PG_UP  &kp UP        &kp PG_DN  &kp END    &kp INS  &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC
-         &kp ESC   &kp LEFT   &kp DOWN      &kp RIGHT  &kp RET    &trans   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+         &kp TAB   &kp LEFT   &kp DOWN      &kp RIGHT  &kp RET    &trans   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
 &kp F12  &kp F1    &kp F2     &kp F3        &kp F4     &kp F5     &kp F6   &kp F7     &kp F8     &kp F9    &kp F10   &kp F11
-                              &kp LC(BSPC)  &kp TAB    &trans     &trans   &kp BSLH   &kp PIPE
+                              &kp LC(BSPC)  &trans     &trans     &trans   &kp BSLH   &kp PIPE
             >;
         };
 
